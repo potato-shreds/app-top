@@ -55,16 +55,13 @@
 
 <script setup>
 import { ref, onUpdated, onMounted, watch } from 'vue';
-import axios from 'axios';
+import axios from '@/api/axios';
 import { useDataStore } from '@/stores/dataStore.js';
 import { useSharedState } from '@/hook/useSharedState';
 import { ElLoading } from 'element-plus';
 
 const dataStore = useDataStore();
 const { state, current } = useSharedState();
-
-axios.defaults.baseURL = 'http://34.168.85.172:8035';
-// axios.defaults.baseURL = 'http://localhost:8080';
 
 const typeList = ref([
   {
