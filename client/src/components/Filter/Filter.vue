@@ -63,7 +63,7 @@ import { ElLoading } from 'element-plus';
 const dataStore = useDataStore();
 const { state, current } = useSharedState();
 
-axios.defaults.baseURL = 'http://34.168.85.172:8080';
+axios.defaults.baseURL = 'http://34.168.85.172:8035';
 // axios.defaults.baseURL = 'http://localhost:8080';
 
 const typeList = ref([
