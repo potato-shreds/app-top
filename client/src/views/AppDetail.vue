@@ -97,10 +97,13 @@
 </template>
 
 <script setup>
-import axios from '@/api/axios';
+import axios from 'axios';
 import { useRoute, useRouter } from 'vue-router';
 import { onMounted, ref } from 'vue';
 import { ElLoading } from 'element-plus';
+
+// axios.defaults.baseURL = "http://localhost:3000";
+axios.defaults.baseURL = 'http://34.168.85.172:8035';
 
 const route = useRoute();
 const router = useRouter();

@@ -11,7 +11,7 @@
       ><template v-slot="scope">
         <a
           class="link"
-          :href="`/detail?id=${scope.row.id}`"
+          :href="`/#/detail?id=${scope.row.id}`"
           target="_blank"
           style="text-decoration: none; color: black"
         >
