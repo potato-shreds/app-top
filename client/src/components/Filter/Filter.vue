@@ -179,41 +179,36 @@ const categoryList = ref([
   },
   {
     id: 14,
-    name: 'Productivity',
-    isOpen: false,
-  },
-  {
-    id: 15,
     name: 'Reference',
     isOpen: false,
   },
   {
-    id: 16,
+    id: 15,
     name: 'Shopping',
     isOpen: false,
   },
   {
-    id: 17,
+    id: 16,
     name: 'Social Networking',
     isOpen: false,
   },
   {
-    id: 18,
+    id: 17,
     name: 'Sports',
     isOpen: false,
   },
   {
-    id: 19,
+    id: 18,
     name: 'Travel',
     isOpen: false,
   },
   {
-    id: 20,
+    id: 19,
     name: 'Utilities',
     isOpen: false,
   },
   {
-    id: 21,
+    id: 20,
     name: 'Weather',
     isOpen: false,
   },
