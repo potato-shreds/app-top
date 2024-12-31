@@ -91,6 +91,8 @@ const fetchAllData = async () => {
             categories[categoriesNum],
             JSON.stringify(allAppsData)
           );
+
+          allAppsData.length = 0;
         } catch (error) {
           console.log(
             `Error fetching data for ${collections[collectionNum]} - ${Countries[countryNum]} - ${categories[categoriesNum]}:`,
